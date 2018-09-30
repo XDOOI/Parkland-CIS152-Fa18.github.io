@@ -1,0 +1,34 @@
+continue 03/13 of cal-mar.org
+
+* junk
+** donuts
+** candy
+** fries
+** pop
+** gatorade
+** chips
+* tacos
+* enchiladas
+* jelly meatballs
+* cheesy brat stew
+* taco soup
+* pizza
+* burger
+* sloppy joes
+* pot pie
+* burrito
+* ham
+* tuna
+* soup
+* crackers
+* veggies
+* rice
+* nongshim
+* cereal
+* bfast
+** egg
+** toast
+** meat
+* sandwich
+* peanut butter
+* beer
