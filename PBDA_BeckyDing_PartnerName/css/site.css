@@ -1,0 +1,102 @@
+/* add your css on this page */
+body { 
+    font-size: 100%;
+    background-color: #A9A7B4;
+    color: #A9A7B4;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#MainArticle {
+    background-color: #110D2E;
+}
+
+article>section {
+    margin: 2em;
+}
+
+#family {
+    width: 78%;
+    float: left;
+}
+aside {
+    margin-top: 5em;
+    float: right;
+    width: 15%;
+    height: 190px;
+    border-left: 2px solid #5146A4;
+    padding: .3em;
+    font: lighter 120%/130% "Brush Script MT", cursive;
+    color: #8781B1;
+}
+
+aside>p {
+    float: right;
+}
+
+#work {
+    clear: both;
+}
+
+ul li::first-letter {
+    font-size: 160%;
+}
+
+article a:link {
+    color: #8781B1;
+}
+
+article a:visited {
+    color: #564D94;
+}
+
+article a:hover, article a:focus {
+    color: #6556C0;
+    font-weight: bold;
+}
+
+img {
+    border: darkslateblue 3px groove;
+    padding: 2px;
+}
+
+#GandB {
+    margin-left: 2em;
+    margin-top: .5em;
+}
+#menuPlanner,span {
+    float: right;
+    margin: 0 .6em 0 1.4em;
+}
+
+nav {
+    position: absolute;
+    right: 2em;
+    top: 3em;
+}
+
+.navItem {
+    color: darkslateblue;
+    background-color: #A9A7B4;
+    padding: 1.3em;
+    font-size: 1.8em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: .2em;
+}
+
+.active {
+    color: #716D88;
+    text-shadow: -1px 1px 2px #0B0919;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+footer>small {
+    margin: .4em;
+    color: darkslateblue;
+    line-height: 2.5em;
+}

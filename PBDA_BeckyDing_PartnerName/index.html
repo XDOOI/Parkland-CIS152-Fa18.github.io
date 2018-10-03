@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Becky Ding is the most fascinating person in the world.  Read more about her family, work, and personal interests.">
+	<meta name="keywords" content="nicu, humane society, parkland, paper crafting, sea star">
+	<title>Becky Ding - About Me</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<header>
+	<img src="img/GandB.jpg" alt="Grace and Becky in the car" width="200" id="GandB"/> 
+	<nav>
+	<a href="#" class="navItem">Home</a>
+	<a href="#" class="navItem active">About</a>
+	<a href="#" class="navItem">Contact</a>
+	</nav>
+</header>
+
+<article id="MainArticle">
+	<h1 title="Jennifer Rebecca Ding">Becky Ding</h1>
+	<section id="family">
+		<h2>Family Life</h2>
+		<p>My life currently revolves around my daughter.  Grace was born premature, and was in the <abbr title="Neonatal Intensive Care Unit">NICU </abbr> <!--If you want the user to see the expansion without hovering over the abbreviation, you may want to type (Neonatal Intensive Care Unit) here in parentheses.--> for 12 days; however, she is now two and a half years old and is an active, happy toddler.  We keep a fairly busy schedule with preschool, group classes, activities at church, and frequent play dates or trips to the library. </p>
+		<p>This semester Grace attends <a href="http://www2.parkland.edu/childdev/">Parkland Child Development Center</a> part-time, is enrolled in gymnastics at <a href="http://www.champaigngym.com/">Champaign Gymnastics Academy</a>, and takes a soccer class at <a href="http://www.soccerplanetcu.com/lk">Soccer Planet</a>.  In the fall, Grace attended <a href="http://web4.superb.net/elearn/">Early Learning</a> two days a week and participated in Bongos class at <a href= "http://www.champaignschoolofmusic.com/music-together-overview.html"> Champaign School of Music</a>. Last year she was in dance.  I want to give her a chance to try many activities before settling on one.  Thankfully, in Champaign we have plenty of opportunities to exercise her mind, body, and spirit.</p>
+		<p>My husband and I also have two small dogs; both are rescues.  Buster came from a rescue in Missouri.  He is now over 15 years old and is showing his age.  We adopted Ruthie from the Champaign County Humane Society<sup>1</sup> 7 years ago, and she is still a fun and loving addition to the family.</p>  
+	</section>
+	<aside>
+		<q>Success is to be measured not so much by the position that one has reached in life as by the obstacles which he has overcome while trying to succeed.</q><p>Booker T. Washington</p>
+	</aside>
+	<section id="work">
+		<h2>Work</h2>
+		<p>I currently teach two sections of CIS 152: Web Development and Design I and one of CSC 175: JavaScript.  These classes overlap greatly.  For example, the <code>textAlign</code> property of an element will allow a JavaScript developer to use CSS to change the alignment of the text in HTML.  Including <code>document.body.style.textAlign=”right”;</code> will align the text in the body to the right.  Here is another small snippet of code that we worked on recently in class: </p>
+		<pre>	
+		<code>
+	var number = Math.floor(Math.random() * 100) + 1;
+	
+	for (var i = 1; i &lt;= 10; i++) {
+		var guess = prompt("Enter guess #" + i + " (1..100)");
+	
+		if (guess &lt; number) {
+			alert("Too small");
+		} else if (guess &gt; number) {
+			alert("Too big");
+		} else {
+			alert("Got it");
+		}
+		
+		if (i === 10) {
+			alert("That’s enough guessing");
+		}
+	}
+			
+		</code>
+		</pre>
+		<p>Did you figure out what it does?  Here are the steps:</p>
+		<ol>
+			<li>a random number between 1 and 100 is generated and stored in a variable</li>
+			<li>a loop is created to allow the user up to 10 guesses</li>
+			<li>the user is prompted to guess the number, and the guess is stored in a variable</li>
+			<li>the guess is compared to the random number, and the user is alerted if the guess is too small, too big, or correct</li>
+			<li>if the user uses all of the tries, the user is alerted that the game is over</li>
+		</ol>
+		
+		<p>I am on campus two days a week this semester and also often work on the weekends.  If you see me in D208 or B227<sup>2</sup>, feel free to stop by and ask questions or chat.</p>
+
+		<p>In the past I have taught math at a couple other community colleges, and CSC 105 and CIS 122 here at Parkland.  I have been at Parkland for 7 years now.  Prior to rejoining the academic world, I worked for Amdocs, Busey Bank, and temporarily at a law firm in town.</p>
+
+	</section>
+
+	<section id="freeTime">
+		<h2>Personal Interests</h2>
+		<p>In my free time, I like to do <dfn>paper crafting</dfn> which is "the collection of art forms employing paper or card as the primary artistic medium for the creation of three-dimensional objects" (<cite><a href="https://en.wikipedia.org/wiki/Paper_craft">wikipedia.com</a></cite>). <!--I would not typically give you the definition of paper crafting, but for the purposes of our work in HTML, I want to show you this use of the <dfn> and <cite> elements.-->  Mostly I enjoy making cards that I never send and thinking how nice it would be to make some scrapbooks to pass down through the generations.</p>
+		<p>I also like to cook and bake, although I don't take much time to do it these days.  I do sometimes read about cooking though, like this selection from <cite>Green Eggs and Ham</cite>:</p>
+		<blockquote>  <!--I use blockquote because it's a multiple-line quote.-->
+			<pre>  <!--I use pre because I want to preserve current spacing and line breaks.-->
+	Do you like 
+	green eggs and ham?
+	I do not like them, Sam-I-am.
+	I do not like
+	green eggs and ham.
+
+	Would you like them 
+	here or there?
+
+	I would not like them
+	here or there.
+	I would not like them anywhere. 
+
+	I do not like
+	green eggs and ham.
+	I do not like them, Sam-I-am.
+			</pre>
+		</blockquote>
+		<figure id = "menuPlanner">
+				<img src="img/weeklyMenu.PNG" alt="family menu for this week" width="180"/> <!--Remember that HTML is case-sensitive.  Notice that I capitalized the image name exactly as it was saved.  The browser can sometimes handle it properly, but it may not.  Do it correctly and you won't have to worry.-->
+				<figcaption>Figure 1: Ding Menu</figcaption>
+		</figure> 
+		<p>I even like to make a menu each week.  It helps us to eat healthier and feel more prepared.  It also helps to make a shopping list and get the proper fresh produce when we'll use it.  Notice in the sample menu in Figure 1 that we like to eat a variety of foods each week.</p>
+		<p>Some of my favorite foods are fruits.</p>
+		<ul>
+			<li>pineapple</li>
+			<li>watermelon</li>
+			<li>strawberries</li>
+			<li>blackberries (made into a cobbler <strong>YUM!</strong>)</li>
+			<li>peaches</li>
+		</ul>
+		<p>Finally, I enjoy visiting museums and zoos and aquariums.  My favorite animal is the sea star.  Most aquariums have a selection of the common starfish, but there are stunning ones including the <i lang="la">Astropecten articulatus</i>.  I haven't seen many varieties of sea stars in the wild, but I suppose that's part of living in the midwest.</p>
+		<!-- Notice that I used the <i> tag there.  You should use <em> for emphasis, and typically you will style anything that just needs to be italicized in CSS, but I want you to see the only time you might even consider using the i tag in HTML. -->
+
+	</section>
+	
+	<br>
+	<br>
+	<!-- this is the footer for this article -->
+	<footer> 
+	<p><sup>1</sup>I highly recommend CCHS if you're looking for a new pet.  Hospice Hearts is another worthy organization if you're so inclined.</p>
+	<p><sup>2</sup>You may be more likely to find me walking through the halls than in B227, but the point is that you can stop and chat no matter where I am, unless I'm in a class, of course.</p>
+	<address>
+		If you would like to contact the author of this article, email Becky at <a href="mailto:jding@parkland.edu">jding@parkland.edu</a>
+	</address>
+	</footer>
+</article>
+
+<!-- this is the footer for the entire page -->
+<footer>
+	<small>&copy;Becky Ding <span>last updated <time datetime="2018-02-18">February 18, 2018</time></span></small>
+</footer>
+
+</body>
+</html>
