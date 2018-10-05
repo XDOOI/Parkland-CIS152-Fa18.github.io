@@ -1,0 +1,71 @@
+body {
+    width: 98%;
+    background-color: darkgoldenrod;
+    font-size: 100%;
+}
+
+header img{
+    float: left;
+}
+header h2 {
+    margin-left: 120px;
+    margin-right: 70px;
+    padding-bottom: .25em;
+    border-bottom: 3px solid firebrick;
+    text-shadow: 1px 1px firebrick;
+}
+
+nav {
+    font-size: 105%;
+    background-color: firebrick;
+    width: 80%;
+    margin-left: 120px;
+    margin-right: 77px;
+    color: black
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 60px;
+}
+nav li mark {
+    background-color: midnightblue;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main {
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 68px;
+    border: 3px;
+}
+main blockquote{
+    color: black
+}
+main h2 {
+    color: black;
+    text-align: center;
+}
+main ol {
+    color: black;
+}
+.text {
+    background-color: firebrick;
+}
+footer {
+    font-size: 75%;
+}
+main ul a {
+    color: midnightblue;
+    
+}
+
+main ul a:visited, a:hover{
+    color: mediumpurple;
+    font-style: italic;
+}
