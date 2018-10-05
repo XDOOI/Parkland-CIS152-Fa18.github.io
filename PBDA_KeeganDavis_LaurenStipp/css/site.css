@@ -1,0 +1,47 @@
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: cyan;
+    font-size: 100%;
+}
+
+header {
+    color:#bc243c;
+    font-size:2em;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color:darksalmon;
+    font-size:large;
+    text-align:center;
+    background-color:darkblue;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.aboutus {
+    margin-left:2em;
+}
+
+.walrus1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float:right;
+}
+
+a{
+    color:orange;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+.CuteLink    {
+    margin-left:57em;
+}
+
+h1::first-letter{
+    color:aliceblue
+}
