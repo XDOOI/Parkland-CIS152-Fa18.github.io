@@ -1,0 +1,97 @@
+header h1{
+	background-color: cadetblue;
+    text-shadow: 2px 2px #d3d3d3;
+}
+header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+	background-color: #333;
+}
+header ul li{
+	text-align: center;
+	display: inline;
+	float: left;
+	
+}
+header ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+header ul li a:hover{
+background-color: #111;
+}
+img{
+    align-content: center;
+}
+aside{
+    float: none;
+}
+main {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica,monospace;
+}
+
+main h1 {
+    
+    font-weight: 400;
+    font-size:36px;
+}
+div{
+    height: auto;
+    width: auto;
+    margin-left: auto;
+}
+h3{
+    text-align: center;
+    color: crimson;
+    background-color: white;
+}
+h3 ol{
+    text-align: left;
+}
+h4{
+    text-align: center;
+}
+aside{
+    text-align: center
+}
+body {
+    background-color: #333333;
+    font-family: fantasy,Arial;
+    font-weight: 100;
+    font-size: 100%;
+    margin: auto;
+}
+body li {
+font-size: 95%;
+}
+body h1{
+	text-align: center;
+	
+}
+#nobullets{
+    list-style-type: none;
+    text-align: center;
+}
+
+footer{
+	font-size: 70%;
+    margin-bottom: auto;
+	
+}
+
+.textalign{
+	text-align:center;
+}
+a:hover{
+    color: blueviolet;
+}
+b:hover{
+    color: blueviolet;
+}
