@@ -1,0 +1,67 @@
+html {
+    background-color: #e8e8e8;
+    color: #333333;
+}
+body{
+    font-family: Calibri, "Myriad Pro", sans-serif;
+    font-size: 100%;
+    margin: .5em 2em;
+    
+}
+h1 {
+    font-family: "Roboto Slab", Garamond, "Times New Roman", Times, serif;
+    margin-bottom: .15em;
+}
+nav {
+    font-size: 81%;
+    font-weight: bold;
+    margin-left: 4em;
+}
+h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 25em;
+    margin-left: 50px;
+
+    
+}
+h2::first-letter{
+    font-size: 100%
+}
+figure {
+    font-size: 81%;
+    font-style: italic;
+    margin-left: 0;
+    margin-right: 50em;
+}
+q {
+    font-style: oblique;
+}
+blockquote {
+    margin-left: 0;
+    width: 635px;
+    text-align: center;
+}
+p {
+    width: 635px;
+}
+.copy {
+    text-indent: 1em;
+}
+aside {
+    float: right;
+}
+p.aside {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+ol {
+    padding-left: 1em;
+    margin-top: .5em;
+}
+footer {
+    font-size: 80%;
+    font-style: italic;
+    color: darkslategray;
+    clear: both;
+}
