@@ -1,0 +1,100 @@
+header{
+    
+}
+#nav{
+    position: absolute;
+    background-color: blue;
+    top: 100px;
+    left: 870px;
+}
+body {
+    background-color: #333333;
+    background-image: url(ourcreation.jpg);
+}
+
+h2 {
+    color: chartreuse;
+    border: 3px solid;
+}
+#banner{
+    position: absolute;
+    top: 5px
+}
+p {
+    color: #FFa3cf;
+    background-color: blue;
+    border: 3px dashed #CCCCCC;
+    text-align: center;
+
+}
+#high-fantasy {
+    margin-right: 1700px;
+    position: absolute;
+    top: 347px
+}
+header img {
+    top: 490px;
+    left: 650px;
+    position: absolute;
+    
+}
+main img {
+    top: 450px;
+    left: 640px;
+    position: absolute;
+    
+}
+#mission{
+    position: absolute;
+    top: 360px;
+    left: 600px;
+}
+#realistic {
+    position: absolute;
+    top: 347px;
+    left: 1700px;
+    right:20px
+}
+#highlists {
+    position: absolute;
+    left: 300px;
+    top: 550px;
+    border: 20px dotted;
+    border-bottom-color: purple;
+    border-left-color: green;
+    border-right-color: lightgoldenrodyellow;
+    border-top-color: crimson;
+    background-color: firebrick;
+    color: ghostwhite
+}
+#reallists {
+    position: absolute;
+    left: 1285px;
+    top: 550px;
+    border: 20px dotted;
+    border-bottom-color: purple;
+    border-left-color: green;
+    border-right-color: lightgoldenrodyellow;
+    border-top-color: crimson;
+    background-color: forestgreen;
+    color: ghostwhite
+}
+#footer{
+    position: absolute;
+    left: 750px;
+    top: 810px;
+}
+
+#lang{
+    position: absolute;
+    top: 40px;
+    left: 119px;
+}
+#update {
+    position: absolute;
+    top: 200px;
+    left: 800px
+}
+a {
+    color: orange
+}
