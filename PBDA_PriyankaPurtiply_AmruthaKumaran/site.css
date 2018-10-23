@@ -1,0 +1,65 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: right;
+}
+
+
+/* the styles for the header */
+
+header h1, h2 {
+    text-align: center;
+    color: crimson;
+    text-indent: 30px;
+    font-family: fantasy;
+    font-size: 2em;
+    margin: 0.67em 0;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+/* the styles for the section */
+
+main {
+	float :none;
+}
+
+.fig1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p::first-line{
+    color: royalblue;
+    font-variant: small-caps;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
