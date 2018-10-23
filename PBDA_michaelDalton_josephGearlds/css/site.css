@@ -1,0 +1,76 @@
+a:link {
+    color: blue;
+}
+a:hover {
+    color: purple;
+}
+a:visited {
+    color: purple;
+}
+html, body {
+    font-family: "Trebuchet", "Helvetica", sans-serif;
+    font-size: 100%;
+    height: 100%;
+}
+header {
+    background-color: lightgray;
+}
+nav{
+    display: inline;
+}
+main {
+    margin-left: 280px;
+}
+#CatLink{
+    display: inline;
+    float: right;
+}
+#DogLink{
+    display: inline;
+    float: right;
+    padding-right: 50px;
+    
+}
+#center{
+    min-height: 80%;
+    margin-bottom: -50px;
+}
+figure{
+    display: inline;
+}
+h2{
+    text-shadow: 5px 5px 10px #000000;
+    font-family: "Georgia", Serif;
+    text-align: center;
+    font-size: 5em;
+    color: blue;
+}
+p::first-letter {
+    color: mediumpurple;
+}
+#push{
+    height:50px;
+    font-size: 60%;
+    float:right;
+}
+aside {
+    color:red;
+}
+footer{
+    height:75px;
+    font-size: .75em;
+    float:right;
+    width: 100%;
+    background-color: lightgrey;
+}
+address{
+    margin-left: 2em;
+    background-color: lightgrey;
+}
+.right{
+    margin-right: 2em;
+    float: right;
+}
+#doggo{
+    margin-left: 300px;
+}
