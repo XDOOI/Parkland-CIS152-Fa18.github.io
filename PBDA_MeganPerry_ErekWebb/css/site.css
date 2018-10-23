@@ -1,0 +1,82 @@
+/* styles fo all elements*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color:white;
+}
+
+/* styles for the head elements*/
+header {
+    background-color:aqua;
+    color: black;
+    margin-top: 20px;
+    text-shadow: -2px -2px 4px gray;
+}
+/*style for body elements*/
+body {
+    background-color: black; 
+    font-size: 100%;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    color:darkslateblue;
+    font-weight:700;    
+}
+img {
+    float:left;
+    margin-right: 20px;
+}
+sub {
+    font-style:italic;
+}
+sup {
+    font-style:italic;
+}
+ul {
+   font-weight:200; 
+}
+address {
+    color:darkslateblue;
+}
+/*styles for footer elements*/
+footer {
+    background-color: aqua;
+    color:black;
+    font-family: Garamond, serif;
+}
+a:hover, a:focus {
+    color:chartreuse;
+}
+main p:first-child {
+    font-weight: bold;
+}
+
+/* classes and id selectors*/
+#quote {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+#title {
+    font-size:50px;
+}
+.green {
+    color:chartreuse;
+}fr
+.red {
+    color:crimson;
+}
+.violet {
+    color:darkviolet
+}
+.white {
+    color: white
+}
+
+
+
+
