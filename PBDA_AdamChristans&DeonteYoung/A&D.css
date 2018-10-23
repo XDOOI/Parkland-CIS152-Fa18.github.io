@@ -1,0 +1,22 @@
+
+h1{
+    font-size: 400%; 
+    font-family: Times New Roman, Times, serif;
+    text-decoration: underline; text-align: center
+}
+img{
+    width: 100px; height:100px;
+}
+p1 {
+    text-align:left;
+    font-family: Times New Roman, Times, serif;
+    font-size: 150%;float: left;
+    width: 300px;
+    padding-right:100px;
+    
+}
+header {
+    font-family: "Times New Roman", Times, serif;
+    
+}
+{}
