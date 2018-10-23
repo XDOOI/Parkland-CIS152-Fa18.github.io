@@ -1,0 +1,55 @@
+.width{width: 90%; }
+.right {text-align: right;}
+header img  {
+	float: left;
+	left: 0px;
+    margin: 0 5em;
+    width: 4em;
+}
+a:link { color: lightblue}
+a:hover, a:focus { color: blue}
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+body {
+	background-color: dimgray;
+    color: aqua;
+    font-size: 100%;
+    font-family: sans-serif, serif;
+}
+main {
+    text-align: center;
+    margin: 0;
+    padding: 4em;
+    font-size: 99%;
+}
+main h1 {
+    text-align: center;
+    font-family: monospace;
+    text-shadow: -2px -2px 4px blue;
+    font-size: 300%;
+}
+main h2 {
+    color: dodgerblue;
+}
+main h2::first-letter{ font-size: 150%}
+main p {
+	margin: 0;
+	padding-right: 15em;
+    padding-left: 15em;
+    background-color: lightgrey;
+    border: 10px;
+    color:blueviolet
+}
+main ol {
+    text-align:left;
+    background-color: lightgray;
+    color: blueviolet;
+    font-size:90%;
+}
+footer p{
+    text-align: center;
+}
