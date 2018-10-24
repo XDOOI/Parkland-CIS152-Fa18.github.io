@@ -1,0 +1,48 @@
+body {
+    font-size: 100%;
+    font-family: inherit;
+    background-color: #BFBFBF;
+    margin-top: inherit;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+h1{
+    color: #e60000;
+    text-shadow: 2px 2px 1px #080357;
+}
+img{
+    float: left;
+    
+}
+time{
+    color: #FF0000;
+    font-size: 20px;
+    
+}
+small{
+    color: black;
+}
+li{
+    font-style: italic;
+}
+ul{
+    background-color: darkgrey;
+    border-style: groove;
+}
+footer{
+    font-size: 10px;
+    text-align: center;
+}
+h4{
+    font-family: fantasy;
+    text-decoration: underline;
+}
+ol{
+    font-stretch: extra-condensed;
+    font-family: serif;
+    font-size: 50px;
+}
+.fakies{
+    color: red;
+    font-size: 10px
+}
