@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>WeRWalrus</title>
+    <link rel="tiny image" href="images/logo.ico.png">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+   
+        
+    <body>
+    
+    
+    
+<section id="section01" class="demo" class="Home">
+
+      <div class="header">
+    </div>
+  <div id="navbar">
+              <a class="active" href="javascript:void(0)">Home</a>
+              <a href="javascript:void(0)">News</a>
+              <a href="javascript:void(0)">Contact</a>
+            </div>
+    
+    
+  <a href="#section02" class="scroll"><span></span>Scroll</a>
+</section>
+<section class="demo" id="section02">
+ <h1>This is a Test</h1>
+  <a href="#section03"><span></span>Scroll</a>
+</section>
+<section id="section03" class="demo">
+  <h1>This is a Test</h1>
+  <a href="#section04"><span></span>Scroll</a>
+</section>
+<section id="section04" class="demo">
+    <h1>This is a Test</h1>
+</section>
+    
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
