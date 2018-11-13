@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Center grid */
+.gridCenter {
+    margin-top: 1em;
+	grid-template: auto auto / auto auto;
+	grid-template-areas: 
+		"text1 img"
+        "text2 text2";
+}
+
+.gridCenter p {
+    font-size: 1.5vw;
+    color: #ffb443;
+}
+
+.gridCenter #1 {
+    grid-area: text1;
+    max-width: 400px;
+    margin: 2em 0 2em 0;
+}
+
+.gridCenter #2 {
+    grid-area: text2;
+}
+
+.gridCenter img {
+    grid-area: img;
+    width: 80%;
+    margin-left: 3em;
+}

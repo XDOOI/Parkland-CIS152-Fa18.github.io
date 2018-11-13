@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Left side grid */
+.gridLeft {
+	grid-template: auto / auto auto auto;
+	grid-template-areas:
+		"img"
+		"gif"
+		"info";
+}	
+
+#left img {
+	grid-area: gif;
+	margin: 2em 0 0 1.5em;
+	width: 80%;
+}
+
+#left p {
+	grid-area: info;
+	text-align: center;
+	color: #ffb443;
+	font-size: 2vw;
+	margin-top: -7em;
+}
+
+/* Center grid */
+.gridCenter {
+	grid-template: auto auto / auto auto;
+	grid-template-areas:
+		"back back"
+		"navi back";
+}
+
+main img {
+	margin: 1em;
+    width: 95%;
+}
+
+nav {
+	grid-area: navi;
+}

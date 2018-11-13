@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gridCenter {
+	grid-template: auto auto / auto auto;
+	grid-template-areas: 
+		"music contact"
+        "newsletter contact";
+}
+
+#news {
+    grid-area: contact;
+}
+
+#contact {
+    background-color: black;
+    grid-area: contact;
+}
+
+#contact input {
+    width: 50%;
+}
