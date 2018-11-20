@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Concerts Page">
+	<meta name="keywords" content="Rock, Classic Rock, Iconic Rock, Hard Rock">
+	<title>Concerts</title>
+	<link rel="shortcut icon" href="images/guitarLogo.png">
+    <link rel="stylesheet" href="CSS/concertsPage.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    
+    <script>var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+</head>
+
+<body>
+	<header>
+	    <img src="images/guitarLogo3.png" alt="logo">
+		<h2 title="Peyton and Aden">Iconic Rock Fan Page</h2>
+       <h3>________________________________________</h3>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="biographics.html">Biographics</a></li>
+                <li><a href="concertsPage.html">Concerts</a></li>
+            </ul>
+        </nav>
+	</header>
+	<main>
+        <img class="leftColumn" src="images/leftColumn.png">
+        <button class="accordion">Kansas
+        </button>
+        <div class="panel">
+        <p>Information</p>
+        </div>
+        <img class="rightColumn" src="images/rightColumn.png">
+        
+	</main>
+	<footer>
+	    <p id="peyton">Peyton Miller - Concerts and Times Author</p>
+		<p>&copy; 2018 Aden Litwiller and Peyton Miller October <sup>5th</sup> 2018</p>
+	</footer>
+</body>
+</html>
