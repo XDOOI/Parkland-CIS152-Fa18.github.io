@@ -1,0 +1,133 @@
+html {
+    background-image: url(yeyeye.jpg);
+}
+h1 {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+h6 {
+    position:absolute;
+    top: 55%;
+    left: 72%;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    text-align: center;
+    list-style: none;
+    background-color: #1d496e;
+    color: white;
+    font-size: 18pt;
+    display: flex;
+    flex-basis: 20%;
+    justify-content: space-between;
+	list-style-type: none;
+	margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+	padding: 20px;
+	position: relative;
+    border: 1px solid; /* Gray border */
+    border-top: none;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+}
+img {
+    float: right;
+    margin-top: 5.2%;
+    margin-right: 10.3%;
+}
+p {
+    background-color: #1d496e;
+    color: white;
+    font-size: 30pt;
+    padding: 10px;
+    margin-top: 2%;
+    margin-right: 60%;
+    margin-left: 10%;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: darkslateblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: right;
+    margin-top: -17%;
+    margin-right: 10%;
+}
+/* tablet portrait to standard 960 */
+@media only screen and (max-width: 959px) {
+	section h1 { font-size: 135%; }
+	section h2, aside h2 { font-size: 120%; }
+}
+
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 767px) {
+	header img { float: none; }
+	header { text-align: center; }
+	section {
+		float: none;
+		width: 95%;                     /* 100 - (2 x 2.5) for padding */
+	}
+	aside {
+		float: none;
+		padding-right: 2.5%;           /* 20 / 800 x 100 */
+		width: 95%;                    /* 100 - (2 x 2.5) for padding */
+	}
+	article img { max-width: 30%; }
+	#speakers {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000 !important;
+	}
+}
+
+/* mobile portrait to mobile landscape */
+@media only screen and (max-width: 479px) {
+	body { font-size: 90%; }
+}
+
