@@ -1,0 +1,152 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+a:link {
+    text-decoration: none;
+}
+html, body {
+    font-family: "Trebuchet", "Helvetica", sans-serif;
+    font-size: 100%;
+    height: 100%;
+}
+body {
+    display: grid;
+    background-image: url("../images/background-pattern.png");
+    background-position: center;
+    background-repeat: repeat;
+    grid-template:
+        [nav-left] "nav" 90px[nav-right]
+        [main-left] "main" 1fr[main-right]
+        [footer-left] "footer" 40px[footer-right]  
+}
+
+/* nav */
+
+nav {
+    background: #e2e2e2;
+    grid-area: nav;
+    box-shadow: 5px 5px 5px rgba(150, 150, 150, 0.2);
+}
+nav img {
+    margin: 1.2em 0 0 1em;
+    align-content: flex-start;
+    float: left;
+}
+nav ul {
+    margin: 3em 1em 0 0;
+    align-content: flex-end;
+    float: right;
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1em 0 0;
+    font-size: 120%;
+}
+nav ul li a:link {
+    font-weight: bold;
+}
+nav #dogs a:link {
+    color: blue;
+}
+nav #cats a:link {
+    color: orange;
+}
+nav ul li a:hover {
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.7);
+}
+nav #cats a:visited {
+    color: orange;
+    font-weight: normal;
+}
+nav #dogs a:visited {
+    color: blue;
+    font-weight: normal;
+}
+/* main */
+
+main {
+    display: flex;
+    align-items: center;
+    grid-area: main;
+}
+.content {
+    margin: auto;
+    display: block;
+    height: 500px;
+    width: 650px;
+    border-radius: 20px;
+    background: white;
+}
+.content #main-text {
+    padding: 0 120px 20px 120px;
+    text-align: left;
+    
+}
+.content #main-text h1 {
+    font-size: 400%;
+    font-weight: bold;
+    margin: 40px 0px 10px 0px;
+    
+    }
+.content ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.content ul li {
+    display: inline;
+}
+.content img{
+    margin: 0em .5em;
+    width: 220px;
+}
+.content ul li a:hover{
+    filter: drop-shadow(2px 2px 2px rgba(150, 150, 150, 0.7))
+}
+
+/* footer */
+
+footer {
+    display: block;
+    grid-area: footer;
+    background-color: #e2e2e2;
+    margin: 0 0;
+    height: 2.5em;
+}
+footer h6 {
+    text-align: right;
+    margin: 12px 12px;
+}
+@media only screen and (max-width: 600px) {
+    nav ul li{
+        min-width: 0;
+    }
+    
+    .content {
+        width: 400px;
+        height: auto;
+}
+    .content #main-text h1 {
+    font-size: 200%;
+ }
+    .content #main-text {
+    padding: 0 auto 20px auto;
+    text-align: left;
+}
+    .content ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .content li{
+        text-align: center;
+    }
+    .content #dog{
+        order: 1;
+    }
+    .content #cat{
+        order: 2;
+    }
+}
+    
