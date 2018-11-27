@@ -116,6 +116,9 @@ a {
         top:700px;
         left:180px;
     }
+	p {
+		font-size: 18pt;
+	}
     main {
         display: flex;
         flex-direction: column;
