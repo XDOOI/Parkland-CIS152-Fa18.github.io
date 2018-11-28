@@ -213,7 +213,7 @@ html, body {
 
 .btn {
     position: absolute;
-    top: 285%;
+    top: 290%;
     left: 26%;
     transform: translate(-50%, -50%);
     background-color: #555;
@@ -228,7 +228,7 @@ html, body {
 
 .don {
     position: absolute;
-    top: 285%;
+    top: 290%;
     left: 74%;
     transform: translate(-50%, -50%);
     background-color: #555;
