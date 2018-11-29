@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    
+    <meta charset="UTF-8">
+    <meta name="keywords" content="cat, pet, rescue, adoption, champaign county">
+    <meta name="description" content="champaign county area source for cat adoption and rescue">
+    <title>Nine Lives Cat Rescue| Cat Adoption </title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/photo.css">
+    <link rel="stylesheet" href="styles/jquery.bxslider.css">
+    
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="js/jquery.bxSlider.min.js"></script>
+    <!-- Call to the bxSlider function -->
+     <script>
+    	$(document).ready(function() {
+        	$("#slider").bxSlider({
+			  controls: false,
+			  captions: false,
+			  minSlides: 1,
+			  maxSlides: 1,
+			  slideWidth: 400,
+			  slideMargin: 10,
+			});
+    	});
+    </script>
+</head>
+
+<body>
+    <header>
+ 
+          <a href="index.html" id="logo"><img  src="images/NineLivesLogo.png" alt="Nine Lives Cat Rescue"></a>
+          
+          <nav id="social">
+            <ul>
+        	    <li>
+        	    <a href="https://www.facebook.com/thedailykitties">
+        	    <img src="images/facebookicon.png" alt="facebook">
+        	    </a></li>
+        	    
+        	    <li>
+        	    <a href="https://www.instagram.com/the.daily.kitty">
+        	    <img src="images/instaicon.png" alt="instagram">
+        	    </a></li>
+        	    
+        	    <li>
+        	    <a href="https://twitter.com/KittiesEveryday">
+        	    <img src="images/twittericon.png" alt="twitter">
+        	    </a></li>
+
+    	    </ul>
+          </nav>
+      
+          <nav id="navi">
+            <ul>
+                <li><a href="info.html">INFO</a></li>
+                <li><a href="photo.html"><span id="info">PET PHOTOGRAPHY</span></a></li>
+                <li><a href="pdfs/PartnerMockup_assignment_Jill_Juana_Trina_AdoptionForm.pdf">ADOPTION FORM</a></li>
+                <li><a href="adopt.html">ADOPT</a></li>
+            </ul>
+          </nav>
+     
+    </header>
+    
+    <main>
+          <section>
+            <div id="slider">
+                <img class="catphoto" src="images/graycats.jpg" alt="Muffin Cat">
+                
+                <img class="catphoto" src="images/blueeye.jpg" alt="Muffin Cat">
+            </div>
+            
+
+            
+            
+            <aside>
+               <div id="phototext"> 
+                <h4>We come to you!</h4>
+                
+                <p>We believe cats are most comfortable in their own environment. Not only will your pet thank us, we believe this is the best way to capture their personality.</p>
+                </div>
+                
+            <div id="catbutton"> 
+              <p id="catname"><a href="mailto:jillmthomas1@gmail.com">
+              <span id="moreabout">Contact for</span><br>Photos</a></p>
+              <img id="bluepaw" src="images/camerabutton.png" alt="paw print">
+               
+              </div>
+              
+            </aside>
+  
+          </section>
+          
+        <article>
+          <div class="textboxes">
+                  <h2>Photo Packages</h2>
+                  <p>12 photos....... &dollar;25.00<br>
+                  Additional photos....... &dollar;5.00<br>
+                  Customized sizes and packages available</p>
+                  
+                <h2>Customized Merchandise</h2>
+                  <p>We offer customized photo items with your pet&rsquo;s image&colon;<br>
+                  Cups&nbsp;&nbsp;&bull;&nbsp;&nbsp;Bags&nbsp;&nbsp;&bull;&nbsp;&nbsp; Calendars<br><br><em>Contact our photographer for details.</em>
+                </p>
+          </div>
+
+       </article>
+    </main>
+      
+    <footer>
+          <div class="leftside">
+              <h3>Have a question or a cat that needs rescue&quest;</h3>
+              <p><a href="mailto:jillmthomas1@gmail.com">ninelivesrescue@example.com</a></p>
+              <address>555 E. Main Street | Champaign, IL 61822 <br>555-555-5555 </address>
+              <p id="copyright"> &copy; Copyright 2018 Nine Lives Rescue.</p>
+          </div>
+
+          <div class="rightside">
+              <h3>Want to receive updates on available cats&quest;</h3>
+
+              <form action="/action_page.php">
+              <label for="email">Email:</label>
+                  <input type="text" id="email"><br>
+              <label for="mobile">Mobile:</label><input type="text" id="mobile"> <br>
+              <input type="submit" id="submit" value="Submit">
+              </form>
+          </div>
+       
+    </footer> 
+   
+   
+    </body>
+</html>
