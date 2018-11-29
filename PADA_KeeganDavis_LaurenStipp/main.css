@@ -31,14 +31,15 @@ html, body {
 
 
 .mission {
+    position: relative;
     text-align: center;
     margin-bottom: -150px;
     margin-top: 120px; 
     font-family: chalk;
     font-size: 3vw;
     padding: 4px;
-
 }
+
 .ourmission {
     margin-bottom: 20px;
     margin-left: 50%;
@@ -47,17 +48,14 @@ html, body {
     font-size: 2.3vw;
     font-family: chalk;
     float: left;
-    display: flex;
+    position: relative;
 }
+
 .video {
-    position: absolute;
-    display: flex;
+    position: relative;
     border: 0px; 
-    font-size: 2vw;
-    margin-bottom: 20px;
-    margin-left: 120px;
-    margin-right: 25px;
-    margin-top: 155px;
+    left: 18%;
+    top: -60%;
 }
 
 .aboutus h1 {
@@ -211,10 +209,9 @@ html, body {
     line-height: 30px;
 }
 
-.btn {
-    position: absolute;
-    top: 290%;
-    left: 26%;
+.flex-container > div > .btn {
+    position: relative;
+    align-content: center;
     transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
@@ -224,12 +221,12 @@ html, body {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    text-decoration: none;
+    font-family: HeadNStuff;
 }
 
-.don {
-    position: absolute;
-    top: 290%;
-    left: 74%;
+.flex-container > div > .don {
+    position: relative;
     transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
@@ -239,15 +236,19 @@ html, body {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: HeadNStuff;
 }
 
 .contactus h1 {
+    position: relative;
     text-align: center;
     margin-bottom: -100px;
-    margin-top: 190px; 
+    top: 60px;
     font-family: Chalk;
     font-size: 3.3vw;
-    padding: 4px;
+    padding: 50px;
 }
 .contactus h2 {
     text-align: center;
@@ -398,13 +399,23 @@ html, body {
     float: right;
 }
 
+footer {
+    font-family: Chalk;
+    position: relative;
+    left: 3%;
+}
 .foot {
     padding-bottom: 2%;
 }
 
 .foot a {
     text-decoration: none;
-    padding: 0.5%;
+
+    float: right;
+    padding-right: 1%;
+    margin-right: 4%;
+    color: midnightblue;
+    
 }
 
 @media only screen and (max-width: 959px) {
@@ -467,4 +478,3 @@ html, body {
 @media only screen and (max-width: 479px) {
 	body { font-size: 90%; }
 }
-
