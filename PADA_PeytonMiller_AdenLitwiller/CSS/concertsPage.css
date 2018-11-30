@@ -1,0 +1,207 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    background-color: #deb887;
+}
+body {
+    background: #deb887;
+    color: #deb887;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding: 1em 0 1em 0;
+    margin: 1em;
+}
+header img{
+    float: right;
+    background-color: burlywood;
+}
+header h2 {
+	font-size: 175%;
+	color: black;
+    padding-left: 41%;
+}
+header h3 {
+	font-size: 130%;
+    color: #781111;
+    padding-left: 36.5%
+}
+/* the styles for the navigation menu */
+#nav_menu #active {
+    color: sandybrown;
+}
+#nav_menu ul {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
+	padding-top: 0.4em;
+    width: 64.5%; 
+    padding-left: 17.5%;
+}
+#nav_menu ul li {
+    flex-basis: 100%;
+}
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #781111;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu ul ul {
+	width: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* the styles for the main content */
+main{
+    display: flex;
+}
+main h1 {
+    color: black;
+    text-align: center;
+}
+main h3 {
+    color: black;
+    text-align: center;
+}
+main button p {
+    text-align: right;
+    font-size: 33px;
+}
+.accordion{
+    background-color: #781111;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-bottom: solid;
+    border-bottom-width: 7px;
+    border-bottom-color: #deb887;
+}
+.accordion:hover {
+    background-color: firebrick;
+}
+.panel {
+    padding: 0 12px;
+    background-color: navajowhite;
+    color: black;
+    display: none;
+    overflow: hidden;
+}
+.panel a {
+    color: firebrick;
+}
+main img.leftColumn{
+    float: left;
+}
+main .centerColumn{
+    float: left;
+    width: 62%;
+}
+main img.rightColumn{
+    float: right;
+}
+/* the styles for the footer */
+footer {
+	background-color: #781111;
+	clear: both;
+}
+footer p {
+	text-align: left;
+	color: white;
+	padding: 1em 1em 1em 1em;
+}
+#peyton {
+    background: #deb887;
+    color: black;
+}
+#mobile_menu {
+	display: none;
+}
+
+/* tablet portrait to standard 960 */
+@media only screen and (max-width: 959px) {
+	section h1 { font-size: 135%; }
+	section h2, aside h2 { font-size: 120%; }
+}
+
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 767px) {
+	header img { float: none; }
+	header {
+        display: flex;
+        text-align: center;
+    }
+    header, footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header h2, header h3 { flex-basis: 100%; }
+    main { flex-direction: column; }
+	section {
+	    order: 1;
+		width: 95%;
+	}
+	aside {
+	    order: 2;
+		padding-right: 2.5%;
+		width: 95%;
+	}
+	article img { max-width: 30%; }
+	#speakers {
+		column-count: 2;
+	}
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #781111 !important;
+	}
+    main img.leftColumn{
+        text-align: inherit;
+        width: auto;
+        height: auto;
+    }
+    main img.rightColumn{
+        text-align: inherit;
+        width: auto;
+        height: auto;
+}
+
+/* mobile portrait to mobile landscape */
+@media only screen and (max-width: 479px) {
+	body { font-size: 90%; }
+    }
+}
+

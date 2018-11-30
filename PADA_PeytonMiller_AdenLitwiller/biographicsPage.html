@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Biographics Page">
+	<meta name="keywords" content="Rock, Classic Rock, Iconic Rock, Hard Rock">
+	<title>Concerts</title>
+	<link rel="shortcut icon" href="images/guitarLogo.png">
+    <link rel="stylesheet" href="CSS/biographicsPage.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    
+    
+</head>
+
+<body>
+	<header>
+	    <img src="images/guitarLogo3.png" alt="logo">
+		<h2 title="Peyton and Aden">Iconic Rock Fan Page</h2>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="biographicsPage.html" id="active">Biographics</a></li>
+                <li><a href="concertsPage.html">Concerts</a></li>
+            </ul>
+        </nav>
+	</header>
+	<main>
+        <img alt="leftColumn" class="leftColumn" src="images/leftColumn.png">
+        <div class="centerColumn">
+        <h1>Biographics</h1>
+        <h3>Classic Rock Legends and Their Information</h3>
+        <button class="accordion">Eric Clapton &or;         
+        </button>
+        <div class="panel">
+            <p>Rolling Stones - Eric Clapton: <a href="https://www.rollingstone.com/music/music-lists/100-greatest-guitarists-153675/eric-clapton-4-38244/">Rollingstones.com</a></p><p>Born: March 30, 1945</p><p>Eric Clapton is the only three-time inductee to the Rock and Roll Hall of Fame. He also ranked second in the Rolling Stones list of 100 greatest guitarists of all time.</p>
+        </div>
+        <button class="accordion">Freddie Mercury &or;
+        </button>
+        <div class="panel">
+           <p>Freddie Mercury Website: <a href="http://www.freddiemercury.com/">Freddiemercury.com</a></p><p>Born: September 5, 1946</p><p>Died: November 24, 1991</p> <p>Freddie Mercury was the lead vocalist of Queen. Recognized as one of the greatest singers in music history. He had a four-octave vocal range.</p>
+        </div>
+        <button class="accordion">Billy Joel &or;
+        </button>
+        <div class="panel">
+           <p>Billy Joel Website: <a href="https://www.billyjoel.com/">Billyjoel.com</a></p><p>Born: May 9, 1949</p><p>Billy Joel is a composer and pianist. Nickname is the Piano Man. He has been making music since the 1960's.</p>
+        </div>
+        <button class="accordion">Ringo Starr &or;
+        </button>
+        <div class="panel">
+            <p>Ringo Starr Website: <a href="http://www.ringostarr.com/">Ringostarr.com</a></p><p>Born: July 7, 1940</p><p>Ringo Starr is an English musician and actor. He gained his fame as the drummer for the Beatles. His full actual name is Richard Starkey.</p>
+        </div>
+        <button class="accordion">Jon Bon Jovi &or;
+        </button>
+        <div class="panel">
+            <p>Jon Bon Jovi Website: <a href="https://www.imdb.com/name/nm0000954/bio">Bonjovi.imdb.com</a></p><p>Born: March 2, 1962</p><p>Jon Bon Jovi is an American singer/songwriter. He is the founder of Bon Jovi, it was founded in 1983.</p>
+        </div>
+        </div>
+        <img alt="rightColumn" class="rightColumn" src="images/rightColumn.png">
+        
+	</main>
+	<footer>
+	    <p id="aden">Aden Litwiller - Biographics Page Author</p>
+		<p>&copy; 2018 Aden Litwiller and Peyton Miller October <sup>5th</sup> 2018</p>
+	</footer>
+	<script>var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+</body>
+</html>

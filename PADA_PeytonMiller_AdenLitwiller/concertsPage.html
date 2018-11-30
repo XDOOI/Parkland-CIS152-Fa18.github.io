@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Concerts Page">
+	<meta name="keywords" content="Rock, Classic Rock, Iconic Rock, Hard Rock">
+	<title>Concerts</title>
+	<link rel="shortcut icon" href="images/guitarLogo.png">
+    <link rel="stylesheet" href="CSS/concertsPage.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    
+    
+</head>
+
+<body>
+	<header>
+	    <img src="images/guitarLogo3.png" alt="logo">
+		<h2 title="Peyton and Aden">Iconic Rock Fan Page</h2>
+    
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="biographicsPage.html">Biographics</a></li>
+                <li><a href="concertsPage.html" id="active">Concerts</a></li>
+            </ul>
+        </nav>
+	</header>
+	<main>
+        <img  alt="leftColumn" class="leftColumn" src="images/leftColumn.png">
+        <div class="centerColumn">
+        <h1>Concerts</h1>
+        <h3>Concerts of Bands Near Illinois and Dates</h3>
+        <button class="accordion">Kansas &or;
+        </button>
+        <div class="panel">
+            <p>Kansas Website: <a href="http://www.kansasband.com/">kansasband.com/</a></p> <p>Closest Concert: Peoria, IL. March 9, 2019</p><p>Place: Peoria Civic Center Theater</p>
+        </div>
+        <button class="accordion">Lynyrd Skynyrd &or;
+        </button>
+        <div class="panel">
+            <p>Lynyrd Skynyrd Website: <a href="https://lynyrdskynyrd.com/">lynyrdskynyrd.com/</a></p> <p>Closest Concert: Thackerville, OK. December 31, 2019 </p><p>Place: Winstar World Casino</p>
+        </div>
+        <button class="accordion">Fleetwood Mac &or;
+        </button>
+        <div class="panel">
+            <p>Fleetwood Mac Website: <a href="https://www.fleetwoodmac.com/">fleetwoodmac.com/</a></p> <p>Closest Concert: Chicago, IL. March 1, 2019</p><p>Place: United Center</p>
+        </div>
+        <button class="accordion">The Rolling Stones &or;
+        </button>
+        <div class="panel">
+            <p>The Rolling Stones Website: <a href="http://www.rollingstones.com/">rollingstones.com/</a></p> <p>Closest Concert: Chicago, IL. June 21, 2019</p><p>Place: Soldier Field</p>
+        </div>
+        <button class="accordion">KISS &or;
+        </button>
+        <div class="panel">
+            <p>KISS Website: <a href="https://www.fleetwoodmac.com/">fleetwoodmac.com/</a></p> <p>Closest Concert: Chicago, IL. March 2, 2019</p><p>Place: United Center</p>
+        </div>
+        </div>
+        <img alt="rightColumn" class="rightColumn" src="images/rightColumn.png">
+        
+	</main>
+	<footer>
+	    <p id="peyton">Peyton Miller - Concerts and Times Author</p>
+		<p>&copy; 2018 Aden Litwiller and Peyton Miller October <sup>5th</sup> 2018</p>
+	</footer>
+	<script>var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+</body>
+</html>
