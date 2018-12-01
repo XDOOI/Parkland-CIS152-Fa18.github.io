@@ -1,0 +1,111 @@
+#nav_bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 5%;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #333;
+}
+#nav_bar ul li{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	font-size: 18px;
+	display: inline;
+	float: left;
+	
+}
+#nav_bar ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 17px;
+	text-decoration: none;
+}
+#nav_bar ul li a:hover{
+background-color: #111;
+}
+#small_nav {
+	display: none;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1600px){
+	#nav_bar ul{
+		padding: 0;
+	}
+	#nav_bar ul li{
+		margin: 0;
+		margin-left: 3%;
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width:1150px){
+	#nav_bar{
+		display: none;
+	}
+	#small_nav{
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #333 !important;
+	}
+	
+}
+
+body{
+	font-family: "Rockwell", sans-serif;
+	width:100%;
+}
+div{
+	display: block;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-style: italic;
+}
+body h1{
+	text-align: center;
+	font-size: 45px;
+}
+body h2{
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+body p{
+	font-size: 20px;
+}
+
+#border{
+	border-style: groove;
+	border-width: thick;
+	border-color: #333;
+}
+
+main h2{
+	text-align: left;
+	margin-left: 1%;
+	margin-bottom: 2%;
+}
+
+main p {
+	width:55%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+}
+
+main img{
+	display: block;
+	justify-self:right;
+	float: right;
+	padding: 0;
+	margin:  0 15px 6px 10px;
+	max-height: 35%;
+	max-width: 35%;
+	border: 3px solid black;
+	
+}

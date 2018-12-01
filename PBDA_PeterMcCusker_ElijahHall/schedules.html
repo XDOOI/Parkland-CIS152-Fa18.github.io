@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Make a plan to meet your goal and to keep you motivated">
+    <meta name="keywords" content="amateur running, help, runners, planning, scheduling">
+	<title>Make a Schedule</title>
+    <link rel="icon" href="images/runnerhero_logo.png">
+	<link rel="stylesheet" href="css/schedules.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/fullcalendar.min.css">
+    <link rel="stylesheet" href="css/fullcalendar.print.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src='js/moment.min.js'></script>
+    <script src='js/fullcalendar.min.js'></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script>
+	$(function() {
+		
+		$('#calendar').fullCalendar({
+		
+		 defaultView: 'month'	
+			
+		});
+	});
+	</script>
+	<script>
+		$(document).ready(function(){
+			$('#nav_bar').slicknav({prependTo:"#small_nav"});
+    	});
+    </script>
+    
+	
+</head>
+<body>
+<header>
+	<nav id="small_nav"></nav>
+	<nav id="nav_bar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="techniques.html">Running Tips</a></li>
+			<li><a href="body.html"> Body Maintenance</a></li>
+			<li><a href="schedules.html">Make a Schedule</a></li>
+			<li><a href="gear.html">Gear</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+		</ul>
+	</nav>
+</header>
+
+<h1>How to Schedule Properly</h1>
+	<p id="subtitle">In order to be the best, you have to know how and when to workout.  Making a workout schedule gives you the best chance to achieve <strong>YOUR</strong> goals.</p>
+	
+	
+<main>
+	<div id='calendar'></div>
+</main>
+</body>
+</html>

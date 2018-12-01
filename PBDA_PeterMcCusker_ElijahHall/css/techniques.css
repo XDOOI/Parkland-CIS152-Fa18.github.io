@@ -1,0 +1,129 @@
+
+body{
+    background-color: white;
+    padding: 20px 25px;
+	font-family: "Rockwell", sans-serif, Arial;
+}
+p{
+	font-family: "Rockwell",sans-serif,Arial;
+	font-size: 20px;
+}
+ul{
+	font-family: "Rockwell",sans-serif,Arial;;
+}
+h1{
+    color: black;
+    font-family: "Rockwell",sans-serif,Arial;
+    font-weight: bold;
+    font-size: 100%;
+    margin: auto;
+}
+#intro{
+	text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+div img{
+	display: block;
+	justify-self: right;
+	float: right;
+	border: 2px solid black;
+	margin: 1em;
+}
+
+div.row1 ul{
+    max-width: 65%
+}
+div.row1 p{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    max-width: 100%;
+}
+div.row2 ul{
+    max-width: 48%;
+}
+div.row2 p{
+    max-width: 65%;
+}
+div.row3 ul{
+    max-width: 65%;
+}
+
+.column{
+    float: left;
+    width: 30%;
+    padding: 10px 20px;
+    height: 300px;
+}
+.column.side{
+    width: 25%;
+}
+.column.middle{
+    width: 50%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px){
+    .column.side, .column.middle{
+        width: 100%;
+    }
+}
+#nav_bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 5%;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #333;
+}
+#nav_bar ul li{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	font-size: 18px;
+	display: inline;
+	float: left;
+	
+}
+#nav_bar ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 17px;
+	text-decoration: none;
+}
+#nav_bar ul li a:hover{
+background-color: #111;
+}
+#small_nav {
+	display: none;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1600px){
+	#nav_bar ul{
+		padding: 0;
+	}
+	#nav_bar ul li{
+		margin: 0;
+		margin-left: 3%;
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width:1150px){
+	#nav_bar{
+		display: none;
+	}
+	#small_nav{
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #333 !important;
+	}
+	
