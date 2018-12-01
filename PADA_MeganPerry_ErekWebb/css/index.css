@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    background-image: url("../res/holotanks_circles.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body img {
+    width: 5%;
+    height: 5%;
+}
+
+nav {
+    z-index: 1;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar a {
+    display: block;
+    justify-content: left;
+}
+
+.navbar-dark .navbar-brand {
+    color: #01f4f4;
+    font-size: 2rem;
+}
+
+.bg-dark {
+    background: #272B27 !important;
+}
+
+.grayBkg {
+    background: rgba(127, 127, 127, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grayBkg .sidebar-content {
+    text-align: center;
+}
+
+.grayBkg .sidebar-content > h2 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+main > .row {
+    max-width: 100%;
+}

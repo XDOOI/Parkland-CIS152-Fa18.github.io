@@ -1,0 +1,39 @@
+body {
+    background-color: #3e3e3e;
+}
+body img {
+    width: 5%;
+    height: 5%;
+}
+main {
+    background-color: #3e3e3e;
+}
+
+nav {
+    z-index: 1;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar a {
+    display: block;
+}
+
+.navbar-dark .navbar-brand {
+    color: #01f4f4;
+    font-size: 2rem;
+}
+
+.bg-dark {
+    background: #272B27 !important;
+}
+
+.container {
+    background-color: #292929;
+    color:  #01f4f4;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
