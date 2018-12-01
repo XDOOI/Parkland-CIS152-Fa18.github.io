@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <meta charset="utf-8">
+    <title>Donations</title>
+     <link rel="stylesheet" href="css/donate.css"> 
+
+         
+ <img id="logo" src="images/logo.png" alt="logo" width="50" height="50">
+       
+<header> DONATIONS </header>
+        
+         
+<nav id="nav_menu">
+    <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="donate.html"  class="current">Donate</a></li>
+        <li> <a href="adopt.html">Adopt</a></li>
+        <li> <a href="contact.html">Contact</a></li>
+        
+        
+    </ul>
+</nav>
+         
+<main>
+    <p>100% of all donations goes toward<br>These Four Paws Rescue</p>
+    
+<p>
+    Checks can be sent to 54 East Main Street Champaign IL 61820
+</p>
+</main>
+         
+         
+<fieldset>
+<section>
+    <form actio="donation_form" method="get" name="donation_form" id="donation_form">
+       
+        <legend>Payment Information</legend>
+        
+        <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" required> <br>
+        
+        <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name"
+            required><br>
+        
+        <label for="card_type">Card Type</label>
+            <select name="cc_type" id="cc_type">
+                <option value="visa">Visa</option>
+                <option vaule="mastercard">MasterCard</option>
+                <option value="discover">Discover</option>
+            </select><br>
+        
+        <label for="card_number:">Card Number</label>
+            <input type="card_num" name="card_num" id="card_num" required pattern="\d{16}">
+        <br>
+        
+        <label for="mon">Expiration Date</label>
+            <select name="mon" id="mon">
+                        <option value="jan">January</option>
+                        <option value="feb">Febuary</option>
+                        <option value="mar">March</option>
+                        <option value="apr">April</option>
+                        <option value="may">May</option>
+                        <option value="jun">June</option>
+                        <option value="jul">July</option>
+                        <option value="aug">August</option>
+                        <option value="sept">September</option>
+                        <option value="oct">October</option>
+                        <option value="nov">November</option>
+                        <option value="dec">December</option>
+            </select>
+            
+            <select name="year:" id="year">
+                        <option value="17">2017</option>
+                        <option value="18">2018</option>
+                        <option value="19">2019</option>
+                        <option value="20">2020</option>
+                        <option value="21">2021</option>
+            </select><br>
+         </form>
+    </section>
+</fieldset>
+         
+<fieldset id="buttons">
+   <section>
+    <legend>Submit Your Donation</legend>
+        <label>&nbsp;</label>
+            <input type="button" id="submit" value="Submit">
+            <input type="button" id="Reset" value="Reset"><br>
+         
+    </section>   
+</fieldset>
+         
+
+<div class="back">
+     <a href="index.html">Back</a>
+</div>
+         
+<footer>
+    <blockquote>&copy; These Four Paws Rescue
+    </blockquote>
+</footer>

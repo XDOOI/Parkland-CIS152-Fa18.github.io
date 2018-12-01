@@ -1,0 +1,40 @@
+header { 
+    text-align: center; 
+    font-size: 60px;
+    color: #722530; 
+    margin-top:-80px;
+    font-family: marker felt;
+    }
+
+.logo { 
+  
+}
+
+.dogs { 
+    text-align: right;
+    margin-top: -100px; 
+    }
+
+fieldset { 
+    margin: auto; 
+    padding: auto; 
+    text-align: left; 
+    }
+
+legend { 
+    color: #722530; 
+    font-size: 30px; 
+    }
+label{
+    font-size: 20px; 
+}
+
+
+#buttons a:hover{
+    color: blue; 
+}
+.back{
+    text-align: center; 
+    font-size: 30px; 
+    font-family: marker felt; 
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="css/application.css">
+    <div class="logo">
+    <img src="images/logo.png" width="80">
+    </div>
+   
+    
+    <div class="dogs">
+        <img src="images/formdogs.png" width=300>
+    </div>
+</head>
+<body>
+   <header>Application Form</header>
+<fieldset>
+    <section>
+        <form action="adoption_form" method="get" name="adoption_form" id="adoption_form">
+            <legend>Dog Interested In: </legend>
+               <br>
+                <label for="dog_name">Dog Name</label>
+                <input type="text" name="dog_name" id="dog_name" required> <br>
+        </form>
+    </section>
+</fieldset>
+<br>
+<fieldset>
+    <section>
+        <form action="adoption_form" method="get" name="adoption_form" id="adoption_form">
+            
+        <legend>Identification:</legend>
+          <br>
+          
+           <label for="full_name">First and Last Name</label>
+               <input type="text" name="full_name" id="full_name" required> <br>
+               
+            <label for="street_add" method="get" name="street_add" id="street_add">Street Address</label>
+                <input type="text" name="street_add" id="street_add" required> <br>
+                
+            <label for="city">City</label>
+                <input type="text" name="city" id="city" required> <br>
+                
+            <label for="state">State</label>
+                <input type="text" name="state" id="state" required> <br>
+                
+            <label for="phone_num">Phone Number</label>
+                <input type="text" name="phone_num" id="phone_num" required> <br>
+                
+            <label for="email">Email</label>
+                <input type="text" name="email" id="email" required> <br>                
+        </form>
+    </section>
+</fieldset>
+    <br>
+<fieldset id="Housing">
+    <section>
+        <form action="adoption_form" method="get" name="adoption_form" id="adoption_form">
+              
+<legend>Housing:</legend>
+   <br>
+    <label for="rent">Rent:</label>
+        <select name="yes_no" id="yes_no">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+               
+    <label for="own">Own:</label>
+         <select name="yes_no" id="yes_no">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+                
+     <label for="landlord">Landlords Name and Phone Number:</label>
+            <input type="text" name="name_num" id="name_num"> <br>
+                
+       </form>
+    </section>
+</fieldset>
+<br>
+<fieldset id="Household">
+    <section>
+        <form action="adoption_form" method="get" name="adoption_form" id="adoption_form">
+            <legend>Household Members:</legend>
+            <br>
+            
+        <label for="num_adult">Number of Adults:</label>
+           <select name="amount" id="amount">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+           </select>
+           
+        <label for="num_child">Number of Children:</label>
+           <select name="amount" id="amount">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+           </select>
+           
+           <label for="allergies">Allergies to Dogs</label>
+               <select name="yes_no" id="yes_no">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                
+              <label for="allergies">Allergies to Cats</label>
+                   <select name="yes_no" id="yes_no">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+        </form>
+    </section>
+</fieldset>
+
+<br>
+<fieldset id="prior">
+   <section>
+   <form action="adoption_form" method="get" name="adoption_form" id="adoption_form">
+        <legend>Prior Pet History (list all family pets within the last five years)</legend>
+        <br>
+        
+           
+            <label for="pet">1.</label>
+                    <select name="species" id="species">
+                        <option value="cat">Cat</option>
+                        <option value="dog">Dog</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="pet_name">Pet Name</label>
+                    <input type="text" name="pet" id="pet">
+                    <label for="status">Status</label>
+                       <select name="status" id="status">
+                           <option value="Still">Still With Me</option>
+                           <option value="deceased">Deceased</option>
+                           <option value="Gave">Gave Aways</option>
+                           <option value="lost">Lost/Ran Away</option>
+                           <option value="sold">Sold</option>
+                           <option value="shelter">Gave to Shelter</option>
+                           <option value="Eut">Euthanized</option>
+                       </select>
+                
+                <br>
+             <label for="pet">2.</label>
+
+                         <select name="species" id="species">
+                        <option value="cat">Cat</option>
+                        <option value="dog">Dog</option>
+                        <option value="other">Other</option>
+                    </select>
+                       <label for="pet_name">Pet Name</label>
+                    <input type="text" name="pet" id="pet">
+                    <label for="status">Status</label>
+                       <select name="status" id="status">
+                           <option value="Still">Still With Me</option>
+                           <option value="deceased">Deceased</option>
+                           <option value="Gave">Gave Aways</option>
+                           <option value="lost">Lost/Ran Away</option>
+                           <option value="sold">Sold</option>
+                           <option value="shelter">Gave to Shelter</option>
+                           <option value="Eut">Euthanized</option>
+                       </select>
+                <br>
+             <label for="pet">3.</label>
+
+                         <select name="species" id="species">
+                        <option value="cat">Cat</option>
+                        <option value="dog">Dog</option>
+                        <option value="other">Other</option>
+                    </select>
+                       <label for="pet_name">Pet Name</label>
+                    <input type="text" name="pet" id="pet"> 
+                        <label for="status">Status</label>
+                       <select name="status" id="status">
+                           <option value="Still">Still With Me</option>
+                           <option value="deceased">Deceased</option>
+                           <option value="Gave">Gave Aways</option>
+                           <option value="lost">Lost/Ran Away</option>
+                           <option value="sold">Sold</option>
+                           <option value="shelter">Gave to Shelter</option>
+                           <option value="Eut">Euthanized</option>
+                   </select>
+                   <br>
+                
+            <label for="pet">4.</label>
+
+                         <select name="species" id="species">
+                        <option value="cat">Cat</option>
+                        <option value="dog">Dog</option>
+                        <option value="other">Other</option>
+                    </select>
+        
+                       <label for="pet_name">Pet Name</label>
+                    <input type="text" name="pet" id="pet"> 
+                        <label for="status">Status</label>
+                       <select name="status" id="status">
+                           <option value="Still">Still With Me</option>
+                           <option value="deceased">Deceased</option>
+                           <option value="Gave">Gave Aways</option>
+                           <option value="lost">Lost/Ran Away</option>
+                           <option value="sold">Sold</option>
+                           <option value="shelter">Gave to Shelter</option>
+                           <option value="Eut">Euthanized</option>
+                       </select>
+            <br>
+             <label for="pet">5.</label>
+
+                         <select name="species" id="species">
+                        <option value="cat">Cat</option>
+                        <option value="dog">Dog</option>
+                        <option value="other">Other</option>
+                    </select>
+                      
+                       <label for="pet_name">Pet Name</label>
+                    <input type="text" name="pet" id="pet"> 
+                    
+                <label for="status">Status</label>
+                       <select name="status" id="status">
+                           <option value="Still">Still With Me</option>
+                           <option value="deceased">Deceased</option>
+                           <option value="Gave">Gave Aways</option>
+                           <option value="lost">Lost/Ran Away</option>
+                           <option value="sold">Sold</option>
+                           <option value="shelter">Gave to Shelter</option>
+                           <option value="Eut">Euthanized</option>
+                       </select>
+                    <br>
+                <label for="vac">Are Your Current Pets up to Date</label>
+                    <select name="vac" id="vac">
+                        <option value="yes">Yes</option>
+                        <option valye="no">No</option>
+                    </select>
+                <br>
+                
+                <label for="spay_nu">Are your Current Pets Spayed or Neutered</label>
+                    <select name="vac" id="vac">
+                        <option value="yes">Yes</option>
+                        <option valye="no">No</option>
+                    </select>
+                <br>
+                
+                <label for="heart">Are your Current Pets on Heartworm Preventative</label>
+                    <select name="vac" id="vac">
+                        <option value="yes">Yes</option>
+                        <option valye="no">No</option>
+                    </select>
+         </form>
+    </section>   
+</fieldset>
+<br>
+<fieldset id="Vet">
+   <section>
+    <legend> Current Veterinarian:</legend>
+    <br>
+        <label for="vet_name">Veterinarian's Name</label>
+            <input type="text" name="vet_name" id="vet_name">
+            <br>
+        <label for="vet_num">Veterinarian's Number</label>
+            <input type="text" name="vet_num" id="vet_num">
+            <br>
+    </section>
+</fieldset>
+<br>
+<fieldset id="buttons">
+   <section>
+    <legend>Submit Your Application:</legend>
+    <br>
+        <label>&nbsp;</label>
+            <input type="button" id="submit" value="Submit">
+            <input type="button" id="reset" value="Reset">
+    </section>
+</fieldset>
+
+<div class="back">
+    <a href="availabledogs.html">Back</a>
+</div>
+</body>
+</html>

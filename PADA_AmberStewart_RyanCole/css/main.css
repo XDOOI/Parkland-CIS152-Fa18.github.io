@@ -1,0 +1,86 @@
+
+            /*BODY ELEMENTS*/
+
+body{
+    
+    background-repeat: none;
+    }
+
+body header h1 {
+    color: #92ad80;
+    font-size: 80px;
+    font-weight:bold;
+    font-family: marker felt;
+    text-align: center;
+    padding-left: 100px;
+       }
+
+
+            /*ELEMENTS FOR THE NAV*/
+
+
+#nav_menu ul {
+    list-style-type: none;
+    text-align: center;
+    float: none;
+    font-family: ariel black; 
+    }
+
+#nav_menu ul li {
+    display: inline;
+    padding: 25px 20px 20px 20px; 
+    background-color: #92ad99;
+    }
+
+#nav_menu ul li a {
+    font-family: marker felt; 
+    color: #ffffff;
+    font-size: 30px;
+        }
+#nav_menu ul li a.current {
+    color: #722530; 
+    }
+
+a:hover, a:focus {
+    font-style: italic;
+        }
+
+
+
+
+            /*MAIN ELEMENTS*/
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: marker felt;
+    margin-top: 100px;
+    margin-left: 50px; 
+    color: #ffffff;
+  }
+
+div{
+    text-align: center;
+    }
+
+h2 {
+    font-style: marker felt; 
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+    } 
+
+
+            /*FOOTER ELEMENTS*/
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    color: #92ad99;
+    font-size: 20px; 
+    float: none; 
+    }
+
+

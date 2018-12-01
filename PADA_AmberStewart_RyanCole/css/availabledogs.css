@@ -1,0 +1,142 @@
+body {
+    background-repeat: repeat;
+    }
+
+header { 
+    text-align: center;
+    color: #722530;
+    font-weight: bold;
+    font-family: marker felt;
+    font-size: 80px; 
+    float: none;
+    margin-top: -50px;
+    margin-bottom: 100px; 
+    }
+
+#logo {
+    margin:20px;  
+    }
+
+            /*ELEMENTS FOR THE NAV */
+
+
+#nav_menu ul {
+    list-style-type: none;
+    text-align: center;
+    float: none;
+    font-family: ariel black;
+    margin-top:-50px;
+    }
+
+#nav_menu ul li {
+    display: inline;
+    padding: 25px 20px 20px 20px; 
+    background-color: #722530;
+    }
+
+#nav_menu ul li a {
+    font-family: marker felt; 
+    color: #ffffff;
+    font-size: 40px;
+        }
+#nav_menu ul li a.current {
+    color: #92ad99;
+    }
+
+
+nav ul a:hover, a:focus {
+    font-style: italic; 
+    }
+
+
+            /*ELEMENTS FOR GALLERY1*/
+
+.flex-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    }
+
+.flex-container > div {
+    width: 100px; 
+    text-align: center;
+    }
+
+
+div.gallery {
+    margin: 5px;
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    float: center; 
+    width: 300px;
+    }
+
+div.gallery:hover {
+    border: 10px solid #722530;
+    }
+
+div.gallery img {
+    width: 100%;
+    height: inherit;
+    }
+
+            /*ELEMENTS FOR GALLERY2*/
+
+.flex-container2{
+    display: flex;
+    flex-wrap: wrap; 
+     }
+
+.flex-container2 > div {
+    width: 100px;  
+    text-align: center;
+    }
+
+div.gallery2 {
+    margin: 5px;
+    margin-left: 100px; 
+    border: 1px solid #ccc;
+    float: left; 
+    width: 300px;
+    }
+
+div.gallery2:hover {
+    border: 10px solid #722530;
+    }
+
+div.gallery2 img {
+    width: 100%;
+    height: inherit;
+
+    }
+            /*ELEMENTS FOR DESC*/
+
+
+div.desc {
+    padding: 15px; 
+    text-align: left;
+    font-size: 25px;
+    font-family: marker felt; 
+    }
+
+
+
+#form { 
+    margin-top: 40px; 
+    text-align: center; 
+    font-size: 40px;
+    font-family: marker felt; 
+    }
+#back {
+    font-family: marker felt; 
+    text-align: center; 
+    font-size: 30px; 
+}
+            /*FOOTER ELEMENTS*/
+
+footer {
+    text-align: center;
+    color: #722530;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 100px; 
+    }
