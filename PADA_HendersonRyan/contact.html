@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="styles/main.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+		<script src="validation.js"></script>
+		<title>And Computing Solutions</title>
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html" id="current">Contact</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</nav>
+		<main>
+			<img src="images/logo.png" id="logo" alt="logo">
+			<h2>Get in touch!</h2>
+			<p>Call us at (217) 555-5555 or email us at info@andcomputing.com! Or fill out the form below</p>
+			<form id="contactForm">
+				<input id="name" name="name" placeholder="Your name">
+				
+				
+				What operating system does your computer run?
+				<select id="os" name="os" onchange="checkOS(this.value)">
+					<option value="">Please select...</option>
+					<option value="windows">Windows</option>
+					<option value="mac">Mac</option>
+					<option value="linux">Linux</option>
+					<option value="other" id="other">Other (please specify)</option>
+					<option value="unknown">Unknown</option>
+				</select>
+				<input type="text" placeholder="Operating System" id="osTextBox" style="display: none">
+				
+				What seems to be the problem?
+				<select name="problem" onchange="checkProblem(this.value)">
+					<option value="" disabled selected>Please select...</option>
+					<option value="overheating">Overheating</option>
+					<option value="slowdown">Slowing down</option>
+					<option value="randomware">Ransomware</option>
+					<option value="hard drive">Cluttered hard disk</option>
+					<option value="broken components">Broken components</option>
+					<option value="other">Other (please specify)</option>
+					<option value="unknown">Unknown</option>
+				</select>
+				<input type="text" placeholder="Computer Issue" id="problemTextBox" style="display: none">
+				
+				How should we contact you?
+				<select name="contact" onchange="checkContact(this.value)">
+					<option value="" disabled selected>Please select...</option>
+					<option value="phone">Phone</option>
+					<option value="email">Email</option>
+					<option value="other">Other</option>
+				</select>
+				<input type="text" placeholder="Phone Number" id="phone" style="display: none">
+				<input type="text" placeholder="Email Address" id="email" style="display: none">
+				<input type="text" placeholder="Contact Information" id="contact" style="display: none">
+				<input type="text" placeholder="Anything else we should know?">
+				
+				<input type="submit">
+			</form>
+			<script>
+				$("#contactForm").validate();
+			</script>
+			<script type="text/javascript">
+				function checkOS(val){
+ 					var element=document.getElementById('osTextBox');
+ 					if(val=='other')
+   						element.style.display='block';
+ 					else  
+   						element.style.display='none';
+				}
+				function checkProblem(val){
+ 					var element=document.getElementById('problem');
+ 					if(val=='other')
+   						element.style.display='block';
+ 					else  
+   						element.style.display='none';
+				}
+				function checkContact(val){
+ 					var phone=document.getElementById('phone');
+					var email=document.getElementById('email');
+					var element=document.getElementById('contact');
+					if(val=='phone')
+						phone.style.display='block';
+					else
+						phone.style.display='none';
+					if(val=='email')
+						email.style.display='block';
+					else
+						email.style.display='none';
+ 					if(val=='other')
+   						element.style.display='block';
+ 					else  
+   						element.style.display='none';
+				}
+
+			</script> 
+		</main>
+		<footer>
+			<p>And Computing Solutions<sup>&copy;</sup> 2018. All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
