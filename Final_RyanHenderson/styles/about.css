@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Center grid */
+.gridCenter {
+    margin-top: 1em;
+	grid-template: auto auto / auto auto;
+	grid-template-areas: 
+		"text1 img"
+        "text2 text2";
+}
+
+.gridCenter p {
+    font-size: 1.5vw;
+    color: #ffb443;
+}
+
+.gridCenter #p1 {
+    grid-area: text1;
+    max-width: 1000px;
+	width: 82.5%;
+    margin: 2em 0 2em 2em;
+}
+
+.gridCenter #p2 {
+    grid-area: text2;
+	width: 90%;
+	max-width: 1500px;
+	margin: 0 0 2em 2em;
+}
+
+.gridCenter img {
+    grid-area: img;
+    width: 80%;
+    margin: 2em 1em 0 0;	
+}
+
+nav {
+	margin-top: 3em;
+}

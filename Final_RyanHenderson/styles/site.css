@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+/* Styling overall page */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #ad3c1e;
+	display: grid;
+	grid-template: 25% 60% 10% / auto auto auto;
+	grid-template-areas:
+		"left center right"
+		"scroll scroll scroll"
+		"foot foot foot";
+}
+
+/* Left side grid */
+.gridLeft {
+	grid-area: left;
+	display: grid;
+	grid-template: auto / auto auto;
+	grid-template-areas:
+		"img"
+		"nav";
+}	
+
+header img {
+	grid-area: img;
+	margin: 1em;
+	width: 100%;
+	max-width: 300px;
+}
+
+#left nav {
+	grid-area: nav;
+}
+
+/* Center grid */
+.gridCenter {
+	grid-area: center;
+	display: grid;
+}
+
+/* Navigation styling */
+nav ul {
+	list-style-type: none;
+	margin: 0 0 2em 4em;
+	width: 250px;
+}
+
+nav ul li {
+	margin-top: 2vw;
+	background-color: #ffb443;
+	border-radius: 10px;
+	width: 75%;
+	max-width: 300px;
+	padding: .6vw;
+	text-align: center;
+}
+
+nav ul li a {
+	color: #b55200;
+	font-size: 2vw;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav ul #current {
+	border-style: solid;
+	border-width: .6vw;
+	border-color: #281200;
+}
+
+/* Right side grid */
+#right {
+	grid-area: right;
+	margin: 1em;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#right ul {
+	list-style-type: none;
+}
+
+#right ul li {
+	margin-bottom: 0.5em;
+}
+
+#right img {
+    width: 90%;
+	max-width: 75px;
+}
+
+/* Carousel */
+section {
+	grid-area: scroll;
+	text-align: center;
+}
+
+section img {
+	margin: 0 .25em 0 .25em;
+    height: 26%;
+}
+
+/* Footer */
+footer {
+	grid-area: foot;
+	width: 100%;
+	margin-top: 1em;
+	background-color: #202020;
+}
+
+footer p {
+	color: silver;
+	margin: 2em 0 2em 0;
+	text-align: center;
+}

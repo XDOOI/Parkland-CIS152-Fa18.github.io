@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gridCenter {
+	grid-template: auto auto / auto auto;
+	grid-template-areas: 
+		"music contact"
+        "newsletter contact";
+}
+
+iframe {
+	grid-area: music;
+	border: 0;
+	margin-top: 2em;
+}
+
+form {
+	background-color: #441b06;
+	color: lightgrey;
+	border-radius: 10px;
+	padding: 1em;
+	margin-bottom: 1em;
+	font-size: 20px;
+}
+
+form p {
+	font-size: 30px;
+	text-align: center;
+}
+
+form div {
+	color: red;
+	display: inline;
+	font-size: 12px;
+}
+
+input {
+	border-radius: 5px;
+	padding: 0 .5em 0 .5em;
+	width: 50%;
+	margin: .25em 0 .25em 0;
+}
+
+#news {
+    grid-area: newsletter;
+	font-size: 20px;
+	width: 75%;
+}
+
+#contact {
+	margin-top: 2em;
+    grid-area: contact;
+	width: 500px;
+}
+
+#contact textarea {
+	display: block;
+}
+
+label.error {
+	color: red;
+	display: block;
+}
+
+nav {
+	margin-top: 12.5em;
+}

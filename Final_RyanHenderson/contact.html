@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Donut Delights</title>
+        <link rel="icon" href="Images/favicon.ico"/>
+        <link rel="stylesheet" href="styles/site.css">
+        <link rel="stylesheet" href="styles/contact.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+        <script src="js/validator.js"></script>
+        <script>$("#news").validate();</script>
+        <script>$("#contact").validate();</script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130625154-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-130625154-1');
+        </script>
+    </head>
+
+    <body>
+        <header class="gridLeft"> <a href="index.html"><img src="Images/logo.png" alt="logo"></a> </header>
+        <aside id="right">
+            <ul>
+                <li><a href="https://www.instagram.com"><img src="Images/SocialMedia/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://www.twitter.com"><img src="Images/SocialMedia/twitter.png" alt="twitter"></a></li>
+                <li><a href="https://www.facebook.com"><img src="Images/SocialMedia/facebook.png" alt="facebook"></a></li>
+            </ul>
+        </aside>
+        <aside id="left" class="gridLeft">
+            <nav>
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li id="current"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="gridCenter">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aWMjUQFEGd0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <form id="news" action="https://formspree.io/rehtkd11@gmail.com" method="POST">
+                Sign up for our newsletter to receive special promotional offers!<br>
+                <div>*</div>Your email address:<br>
+                <input type="text" name="email" id="email" placeholder="ex. johnsmith@example.com"><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <form id="contact" action="https://formspree.io/rehtkd11@gmail.com" method="POST">
+                <p id="header">Feedback Welcome!</p> 
+                <div>*</div>Your name: <br>
+                <input type="text" name="name" placeholder="ex. John Smith"><br>
+                <div>*</div>Your email address:<br>
+                <input type="text" name="email" placeholder="ex. johnsmith@example.com"><br>
+                <div>*</div>Your feedback:<br>
+                <textarea name="feedback" placeholder="ex. Cool place!" rows="5" cols="50"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+
+        </main>
+
+        <section class="carousel">
+            <img src="Images/Carousel/bakery.jpg" alt="bakery">
+            <img src="Images/Carousel/coffee.jpg" alt="coffee beans">
+            <img src="Images/Carousel/donut.jpg" alt="donut">
+            <img src="Images/Carousel/store.jpg" alt="storefront">
+            <img src="Images/Carousel/case.jpg" alt="donuts in case">
+        </section>
+        <footer>
+            <p>
+                Donut Delights 2018<sup>&copy;</sup>
+            </p>
+        </footer>
+    </body>
+</html>
