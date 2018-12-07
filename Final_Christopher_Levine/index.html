@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="icon" href="favicon.ico">
+        <script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/main.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130617353-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-130617353-1');
+		</script>
+	<title>Donut Delights</title>
+    </head>
+    <body>
+	<header>
+	  <img src="img/NEWLOGO.png" alt="logo" />
+	  <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+	  </ul>
+	</header>
+	<main>
+       <p id="home">hi</p>
+	   <ul class="slideshow-container">
+           <li class="mySlides fade"><img src="img/IMG_1117.jpg" alt="" width="550" height="380"></li>
+           <li class="mySlides fade"><img src="img/donutsInCase2.jpg" alt="" width="550" height="380"></li>
+           <li class="mySlides fade"><img src="img/storefront.jpg" alt="" width="550" height="380"></li>
+           <li class="mySlides fade"><img src="img/IMG_9866.JPG" alt="" width="550" height="380"></li>
+           <li class="mySlides fade"><img src="img/IMG_2822_v2.jpg" alt="" width="550" height="380"></li>
+        </ul>
+		<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none"; 
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1} 
+			slides[slideIndex-1].style.display = "block"; 
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+		</script>
+		<p id="hours">Open from 6 A.M. to 8 P.M. every day</p>
+        <img src="img/donutVanGogh.jpg" alt="painting"/>
+        <p>Donuts have been around for many years and even Van Gogh saw the beauty that they possess</p>
+        <section>
+            <img src="img/coffee.JPG" width="300" alt="coffee"/>
+            <p>It's not procastinating if you're drinking coffee,...it's procaffination</p>
+        </section>
+        <aside>
+            <img src="img/vetsAdSmall.gif" alt="gif"/>
+        </aside>
+        <p id="about">hi</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aWMjUQFEGd0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</main>
+	<section id="aboutus">
+	    <h2>About Us</h2>
+	    <p>Donut Delights was started in 1971 by Melvin Furballski, an immigrant baker from the far east coast of Poland. Known far and wide for his delicate pastries, Melvin fled his homeland in search of a better life for his family. In 1970 he landed in New York City and by chance he found an open seat on a bus heading west. When an unexpected mechanical failure forced a three day delay in Champaign, Illinois, Furballski saw the need for a donut shop, so he decided to stay and make a new life for himself in Urbana, Illinois. With only one hundred dollars to his name, he found an abandoned breadshop and within two days he had one of a kind donuts flying off the racks faster than he could bake them and things have never slowed down. Now you can find that same great donut recipe plus dozens more still being made with the samelove and care as when Donut Delights first opened. <br />A bakery fire in the mid-1980s destroyed many of the shop's records...but NOT THE RECIPES. While many people might have viewed the fire as an excuse to quit, Melvin instead used it as anopportunity to reconfigure the interior design, allowing him to add the coffee roastery section as well. So when you visit, be prepared for the inviting mix of aromas from fresh-roasted coffee beans and fresh-baked donuts: It's the closest thing to "Breakfast Heaven" anywhere in the C-U area!</p>
+        <img src="img/bakeryFire.jpg" alt="Bakery Fire" width="550" />
+	</section>
+   <p id="menu">hi</p>
+    <aside id="menuthing">
+        <h2>Menu</h2>
+        <h3 id="regularh">Regular Donut &#40;1 for &#36;1.05, 13 for &#36;8.65&#41;</h3>
+        <p id="regularp">Chocolate frosted, Vanilla frosted, Boston cream, Jelly filled, Cream filled, Glazed, Chocolate glazed, Marble twist, Sugar raised, Plain donut, Plain cruller, Honey wheat, Jelly puff, Cream puff, Coffee roll</p>
+        <h3 id="fancyh">Fancy Donut &#40;&#36;2.00&#41;</h3>
+        <p id="fancyp">Bow tie, &Eacute;clair, Apple turnover, <em>Fancy</em> coffee roll, French cruller</p>
+        <h3 id="toph">Top Sellers &#40;&#36;2.00&#41;</h3>
+        <p id="topp">Pistachio pinwheels, Boston cream delights, Chocolate confetti, Marshmallow mayhems, French twists, Bulls horns</p>
+    </aside>
+    <img src="img/donutsInCase.jpg" width="500" id="case" alt="donuts"/>
+    <img src="img/pinwheels.jpg" width="500" id="pin" alt="pinwheels"/>
+    <img src="img/bullsHorn.jpg" width="500" id="bull" alt="bullshorn"/>
+    <section id="contactus">
+	<div class="container">
+<div class="row">
+<div class="col-md-12">
+        <h2 id="contact">Contact Us</h2>
+        <p>Donut Delights <br /> 2112 Main Street Urbana, Illinois 61801 <br /> &#40;217&#41;&#45;555&#45;1234 <br /> Email: contact&#64;donutdelights.com</p>
+		<h2>Subscribe to our newsletter for the latest on our seasonal offerings and special events:</h2>
+
+  <form id="email_form" class="form" action="https://formspree.io/clevine2@stu.parkland.edu" method="POST">
+
+    <label>First Name</label>
+    <input type="text" class="form-control" name="full_name" placeholder="Your name..">
+
+    <label>Last Name</label>
+    <input type="text" class="form-control" name="full_name" placeholder="Your last name..">
+
+    <label>Email:</label>
+    <textarea class="form-control" name="email_1" placeholder="email@example.com"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.2480270703018!2d-88.22868718437272!3d40.1144757818898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd76a77607879%3A0xabcbde07e6508b09!2s2112+W+Main+St%2C+Urbana%2C+IL+61801!5e0!3m2!1sen!2sus!4v1543968342520" width="600" height="450" style="border:0" allowfullscreen></iframe>
+    </section>
+    <footer>
+       <a href="https://twitter.com/login?lang=en"><img src="img/iconfinder_43-twitter_104461.png" width="100" id="twit" alt="twitter"/></a>
+        <a href="https://www.instagram.com/?hl=en"><img src="img/iconfinder_78-instagram_104425.png" width="100" id="inst" alt="intagram"/></a>
+        <a href="https://www.facebook.com/"><img src="img/iconfinder_facebook_circle_black_107153.png" width="100" id="face" alt="facebook"/></a>
+        <p>Donut Delights &copy; 2018. ALL RIGHTS RESERVED</p>
+    </footer>

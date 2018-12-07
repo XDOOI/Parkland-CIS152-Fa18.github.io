@@ -1,0 +1,15 @@
+/* The Team */
+	Company: Donut Delights
+	Site: christopherlevine.github.io
+	Contact: clevine2@stu.parkland.edu
+	Front End and Back End Developer: Christopher Levine
+
+/* Thanks */
+	Jennifer Ding
+	URL: jrding.github.io
+	-teacher who had assigned this website
+
+/* Site */
+	Donut Delights
+	christopherlevine.github.io
+	Launch: December 2018
