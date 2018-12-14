@@ -1,0 +1,2 @@
+This is a Web Design project done by Justin Stapf for the CIS 152 class
+in the fall semester of 2018.
